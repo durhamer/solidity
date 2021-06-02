@@ -27,3 +27,4 @@ contract Allowance is Ownable {
         emit AllowanceChanged(_who, msg.sender, allowance[_who], allowance[_who] - _amount);
         allowance[_who] -= _amount;
     }
+}
